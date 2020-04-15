@@ -1,2 +1,6 @@
-array = [1, 2, 3]
-puts array
+# 4 と 9 は嫌いなので消しました
+array = %w(1 2 3 5 6 7 8 10)
+oddNum = array.each_slice(2).map(&:first)
+evenNum = array.each_slice(2).map(&:last)
+oddNum.each { |n| puts "#{n.to_s} は奇数です" }
+evenNum.each { |n| puts "#{n.to_s} は偶数です" }
