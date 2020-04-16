@@ -4,3 +4,4 @@ evenNum = array.each_slice(2).map(&:last)
 oddNum.each { |n| puts "#{n.to_s} は奇数です" }
 evenNum.each { |n| puts "#{n.to_s} は偶数です" }
 aaa
+bbb
