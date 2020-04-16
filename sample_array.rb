@@ -6,3 +6,4 @@ evenNum.each { |n| puts "#{n.to_s} は偶数です" }
 aaa
 bbb
 ccc
+ddd
